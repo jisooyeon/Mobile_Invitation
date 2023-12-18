@@ -232,6 +232,7 @@ section h2 {
 #location {
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 80px;
 }
 #location h2 {
   margin-bottom: 20px;
@@ -261,7 +262,7 @@ section h2 {
 }
 #location dl dd {
   color: #444;
-  margin-bottom: 0.4em;
+  padding-bottom: 0.4em;
 }
 
 #congra {
