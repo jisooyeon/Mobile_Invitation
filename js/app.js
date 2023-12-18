@@ -55,6 +55,8 @@ Fancybox.bind("[data-fancybox]", {
     
     // 선택 해제
     window.getSelection().removeAllRanges();
+
+    alert('클립보드로 복사 되었습니다.');
   }
 
   // 글자 복사 기능
@@ -75,6 +77,8 @@ Fancybox.bind("[data-fancybox]", {
     
     // 선택 해제
     window.getSelection().removeAllRanges();
+
+    alert('클립보드로 복사 되었습니다.');
   }
 
   // tab 영역
