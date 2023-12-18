@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- index.html -->
+    <meta property="og:title" content="방희수와 지수연의 결혼식에 초대합니다" />
+    <meta property="og:description" content="2023년 12월  30일 토요일 오후 4시 해피가든웨딩" />
+    <meta property="og:image" content="대표이미지.jpg" />
+    <title>방희수와 지수연의 결혼식에 초대합니다</title>
+    <!-- 웹폰트 -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+        />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <!-- 모바일은 전체적으로 비율로 잡으면 좋음 -->
+    <!-- 1.타이틀: 타이틀 사진 -->
+    <section id="title">
+        <video src="images/flower_00.mp4" autoplay loop muted id="title_vid"></video>
+        <header>
+            <div class="header-group">
+                <p class="date">12 / 30</p>
+                <p class="day">토요일</p>
+            </div>
+        </header>
+        <div class="photo">
+            <img src="images/title.jpg" alt="title">
+        </div>
+        <div class="bottom">
+            <div class="bottom-group">
+                <h1>방희수 <span>|</span> 지수연</h1>
+                <p>2023년 12월 30일 토요일 오후 4시<br>해피가든웨딩</p>
+            </div>
+        </div>
+    </section>
+    <!-- 2.서문(시): 장미 이미지 -->
+    <section id="intro">
+        <img src="images/rose.svg" alt="rose">
+        <p>장담하건대, 세상이 다 겨울이어도<br>
+            우리의 <b>사랑</b>은 늘 봄처럼 따뜻하고<br>
+            간혹, 여름처럼 뜨거울 것입니다.<br>
+            <br>
+            이수동, <사랑가>
+        </p>
+    </section>
+    <!-- 3.초대글: 사진(신랑,신부), 전화아이콘-->
+    <section id="invitation">
+        <h1>초대합니다</h1>
+        <p class="invit-text"><b>‘우리'</b>라는 이름으로 시작한 삶,<br>
+            그 설레는 순간을 축복해주시면<br>
+            더 없는 기쁨으로 간직하겠습니다.
+        </p>
+        <img src="images/title2.jpg" alt="invitation">
+        <ul>
+            <li>방00 ・ 00 <small>의 아들</small> 희수</li>
+            <li>지00 ・ 00 <small>의 딸</small> 수연</li>
+        </ul>
+        <a href="tel:010-3220-9248" class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                    d="M5.51667 8.99167C6.71667 11.35 8.65 13.275 11.0083 14.4833L12.8417 12.65C13.0667 12.425 13.4 12.35 13.6917 12.45C14.625 12.7583 15.6333 12.925 16.6667 12.925C17.125 12.925 17.5 13.3 17.5 13.7583V16.6667C17.5 17.125 17.125 17.5 16.6667 17.5C8.84167 17.5 2.5 11.1583 2.5 3.33333C2.5 2.875 2.875 2.5 3.33333 2.5H6.25C6.70833 2.5 7.08333 2.875 7.08333 3.33333C7.08333 4.375 7.25 5.375 7.55833 6.30833C7.65 6.6 7.58333 6.925 7.35 7.15833L5.51667 8.99167Z"
+                    fill="#444444" />
+            </svg>
+            <span>연락하기</span>
+        </a>
+    </section>
+    <!-- 4.달력: 시간정보 하트 아이콘 -->
+    <section id="calendar">
+        <h2>2023.12.30</h2>
+        <p>토요일 오후 4시</p>
+        <table>
+            <thead>
+                <tr>
+                    <th class="red">일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                    <th>토</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="red"></span></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td><span class="red">3</span></td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td><span class="red">10</span></td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td><span class="red">17</span></td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td><span class="red">24</span></td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td class="the-day"><span>30</span></td>
+                </tr>
+                <tr>
+                    <td><span class="red">31</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="time-info">
+            <div class="day-box">
+                <span class="day">00</span>
+                <span>일</span>
+            </div>:
+            <div class="hour-box">
+                <span class="hour">00</span>
+                <span>시간</span>
+            </div>:
+            <div class="min-box">
+                <span class="min">00</span>
+                <span>분</span>
+            </div>:
+            <div class="sec-box">
+                <span class="sec">00</span>
+                <span>초</span>
+            </div>
+        </div>
+        <p>희수 ❤️ 수연의 결혼식이 <b class="day-text">00</b><b class="day-text">일 남았습니다.</b></p>
+
+    </section>
+    <!-- 5.갤러리: 사진9장 -->
+    <section id="gallery">
+        <h2>갤러리</h2>
+        <ul>
+            <li>
+                <a href="images/photo01.jpg" data-fancybox="gallery" data-caption="사진설명">
+                    <img src="images/photo01.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="images/photo1.jpg" data-fancybox="gallery" data-caption="사진설명">
+                    <img src="images/photo1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="images/pexels-asad-photo-maldives-1024969.jpg" data-fancybox data-caption="사진설명">
+                    <img src="images/pexels-asad-photo-maldives-1024969.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="images/photo4.jpg" data-fancybox="gallery" data-caption="사진설명">
+                    <img src="images/photo4.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="images/photo5.jpg" data-fancybox="gallery" data-caption="사진설명">
+                    <img src="images/photo5.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="images/photo6.jpg" data-fancybox="gallery" data-caption="사진설명">
+                    <img src="images/photo6.jpg" />
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- 6.오시는 길 -->
+    <section id="location">
+        <h2>오시는길</h2>
+        <address>
+            <b>해피가든웨딩 2층 스위트홀</b><br>
+            대전 서구 월드컵대로 123-10
+            <!--구글지도-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.6821900992063!2d126.76870711206912!3d37.656675118836446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c85fde3aec36f%3A0x587c23a3ee1f1061!2z7J287IKw7Lu07ZOo7YSw7ZWZ7JuQLVNCU-yVhOy5tOuNsOuvuOy7tO2TqO2EsOyVhO2KuO2VmeybkA!5e0!3m2!1sko!2skr!4v1702625011675!5m2!1sko!2skr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <!-- 교통편 -->
+            <dl>
+                <dt>지하철</dt>
+                <dd>대전 지하철 1호선 갑천역 2번 출구</dd>
+                <dt>버스</dt>
+                <dd>시내버스: 101, 103, 105, 107</dd>
+                <dd>시외/고속버스: 312</dd>
+                <dt>주차안내</dt>
+                <dd>해피가든웨딩홀 내 지하주차장</dd>
+            </dl>
+
+        </address>
+    </section>
+    <!-- 7.안내사항 : 탭 기능 구현 -->
+
+    <!-- 8.축하의 마음 전하실 곳 -->
+    <section id="congra">
+        <h2>축하의 마음 전하실 곳</h2>
+        <div class="bank-number-box">
+            <h3>신랑측 계좌번호</h3>
+            <div class="info-box">
+                <div>
+                    <span class="bank-number1">120-000-100100</span>
+                    <span>방희수</span>
+                </div>
+                <button class="btn-copy1" onclick="copyToClipBoard()">복사</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9.footer: 링크 아이콘 -->
+
+
+    <script>
+        // 운영체제 정보
+        var checkUserAgent = navigator.userAgent.toLowerCase();
+
+        // Android
+        if (checkUserAgent.indexOf('android') != -1) {
+            console.log('Android');
+
+            // IOS 
+        } else if (checkUserAgent.indexOf("iphone") != -1 || checkUserAgent.indexOf("ipad") != -1 || checkUserAgent.indexOf("ipod") != -1) {
+            console.log('iOS');
+            // 비디오 안보이기
+            const vid = document.querySelector('#title_vid');
+            vid.style.display = 'none';
+
+            // other
+        } else {
+            console.log('other');
+
+        }
+    </script>
+
+</body>
+
+</html>
